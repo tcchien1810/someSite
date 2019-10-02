@@ -47,7 +47,7 @@ header h1{
 	display: inline;
 }
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 1000px)
 {
 	header ul{
 		position: static;
@@ -65,7 +65,7 @@ header h1{
 	}
 }
 
-@media screen and (max-width: 330px)
+@media screen and (max-width: 340px)
 {
 	header ul{
 		margin-top: 50px;

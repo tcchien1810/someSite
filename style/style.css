@@ -1,83 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap');
-
-*{
-	margin: 0;
-	padding: 0;
-	font-family: 'Noto Sans SC', sans-serif;
+#WhoIAm{
+	padding: 30px;
+	color: #efad6c;
 }
 
-body {
-	background-color: #4c686e;
+#wrapper{
+	text-align: center;
+	width: 30%;
+	margin: auto;
+	font-size: 2vh;
 }
 
-a{
-	text-decoration: none;
+#wrapper h2{
+	margin-top: 20px;
+	font-size: 3vh;
 }
 
-header {
-	background-color: #af3740;
-	color: #fbfaf7;
-	position: relative;
-	padding: 25px;
-}
-
-header ul{
-	position: absolute;
-	top: 50%;
-	transform: translate(0,-50%);
-	right: 35px;
-}
-
-header li {
-	display: inline-block;
-	margin-left: 30px;		
-}
-
-header a{
-	color: #fbfaf7;
-	font-size: 2.5vh;
-}
-
-header h1{
-	font-size: 4vh;
-}
-
-header a:hover{
-	text-decoration: underline;
-	color: orange;
-}
-
-header h1{
-	display: inline;
+#wrapper hr{
+	border-color: #efad6c;
+	margin-top: 50px;
 }
 
 @media screen and (max-width: 1000px)
 {
-	header ul{
-		position: static;
-		text-align: center;
-		margin-top: 40px;
-	}
-
-	header h1{
-		display: inline-block;
-		margin-top: 10px;
-	}
-	header{
-		text-align: center;
-		padding: 0;
+	#wrapper{
+		width: 50%;
 	}
 }
 
-@media screen and (max-width: 340px)
+@media screen and (max-width: 750px)
 {
-	header ul{
-		margin-top: 50px;
+	#wrapper{
+		width: 75%;
 	}
+}
 
-	header li{
-		margin-left: 0;
-		display: block;
-		width: 100%;
+@media screen and (max-width: 330px)
+{
+	#wrapper{
+		width: 85%;
 	}
 }
